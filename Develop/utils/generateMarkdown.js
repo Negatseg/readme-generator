@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 //function renderLicenseBadge(license) {}
-function getLicenseBadge(license) {
+function renderLicenseBadge(license) {
   if (!license) {
     return '';
   }
@@ -18,12 +18,12 @@ function getLicenseBadge(license) {
 }
 
 // Example usage:
-const badge = getLicenseBadge('MIT');
+const badge = renderLicenseBadge('MIT');
 console.log(badge); 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 //function renderLicenseLink(license) {}
-function getLicenseLink(license) {
+function renderLicenseLink(license) {
   if (!license) {
     return '';
   }
@@ -41,14 +41,14 @@ function getLicenseLink(license) {
 }
 
 // Example usage:
-const licenseLink = getLicenseLink('MIT');
+const licenseLink = renderLicenseLink('MIT');
 console.log(licenseLink);
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 //function renderLicenseSection(license) {}
 
-function generateLicenseSection(license) {
+function renderLicenseSection(license) {
   if (!license) {
     return '';
   }
@@ -78,7 +78,7 @@ This project is licensed under the [BSD 3-Clause License](https://opensource.org
 }
 
 // Example usage:
-const licenseSection = generateLicenseSection('MIT');
+const licenseSection = renderLicenseSection('MIT');
 console.log(licenseSection);
 
 // TODO: Create a function to generate markdown for README
@@ -88,7 +88,7 @@ console.log(licenseSection);
 // `;
 // }
 
-function generateREADME({
+function generateMarkdown({
   title,
   description,
   installation,
@@ -132,17 +132,17 @@ ${author}
 }
 
 // Example usage:
-const readmeContent = generateREADME({
-  title: 'My Awesome Project',
-  description: 'This is a fantastic project.',
-  installation: 'To install, run `npm install`.',
-  usage: 'To use, run `npm start`.',
-  license: generateLicenseSection('MIT'), // You can use the previous function to generate the license section.
-  contributing: 'Feel free to contribute!',
-  tests: 'To run tests, use `npm test`.',
-  author: 'John Doe',
-});
+// const readmeContent = generateMarkdown({
+//   title: 'My Awesome Project',
+//   description: 'This is a fantastic project.',
+//   installation: 'To install, run `npm install`.',
+//   usage: 'To use, run `npm start`.',
+//   license: renderLicenseSection('MIT'), // You can use the previous function to generate the license section.
+//   contributing: 'Feel free to contribute!',
+//   tests: 'To run tests, use `npm test`.',
+//   author: 'John Doe',
+// });
 
-console.log(readmeContent);
+//console.log(readmeContent);
 
-//module.exports = generateMarkdown;
+module.exports = generateMarkdown;
