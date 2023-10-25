@@ -92,6 +92,8 @@ function generateMarkdown({
   contributing,
   tests,
   author,
+  githubusername,
+  emailid,
 }) {
   return `
 ## Title
@@ -108,6 +110,8 @@ ${description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Author](#author)
+- [GithubUsername](#githubusername)
+- [Email](#emailid)
 
 ## Installation
 ${installation}
@@ -125,6 +129,12 @@ ${tests}
 
 ## Author
 ${author}
+
+## GithubUsername
+${githubusername}
+
+## Email
+${emailid}
 `;
 }
 

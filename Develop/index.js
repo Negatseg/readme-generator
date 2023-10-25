@@ -47,6 +47,16 @@ const questions = [
     name: 'author',
     message: 'Who are the Authors?:',
   },
+  {
+    type: 'input',
+    name: 'githubUsername',
+    message: 'what is your github username?'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'enater your emailId'
+  }
   // Add more questions for other sections (installation, usage, etc.)
 ];
 
