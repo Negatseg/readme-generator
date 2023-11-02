@@ -80,7 +80,6 @@ This project is licensed under the [BSD 3-Clause License](https://opensource.org
 const licenseSection = renderLicenseSection('MIT');
 console.log(licenseSection);
 
-// TODO: Create a function to generate markdown for README
 
 
 function generateMarkdown({
@@ -93,7 +92,7 @@ function generateMarkdown({
   tests,
   author,
   questions,
-  email,
+  
 }) {
   return `
 ## Title
@@ -111,7 +110,6 @@ ${description}
 - [Tests](#tests)
 - [Author](#author)
 - [Questions](#questions)
-- [Email](#email)
 
 ## Installation
 ${installation}
@@ -132,10 +130,7 @@ ${tests}
 ${author}
 
 ## Questions
-${questions, 'Please review https://github.com/Negatseg/readme-generator or email: negash@gmail.com'}
-
-## Email
-${email}
+${questions, 'If you questions, Please review https://github.com/Negatseg/readme-generator or reach out to email: negash@gmail.com'}
 `;
 }
 

@@ -1,6 +1,6 @@
 
 ## Title
-undefined
+yes
 
 ## Description
 yes
@@ -14,13 +14,12 @@ yes
 - [Tests](#tests)
 - [Author](#author)
 - [Questions](#questions)
-- [Email](#email)
 
 ## Installation
 yes
 
 ## Usage
-undefined
+yes
 
 ## License
 yes
@@ -35,7 +34,4 @@ yes
 yes
 
 ## Questions
-Please review https://github.com/Negatseg/readme-generator or email: negash@gmail.com
-
-## Email
-undefined
+If you questions, Please review https://github.com/Negatseg/readme-generator or reachout to email: negash@gmail.com

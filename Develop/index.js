@@ -1,6 +1,4 @@
-// TODO: Include packages needed for this application
 
-// TODO: Create an array of questions for user input
 
 const fs = require('fs');
 const inquirer = require('inquirer');
@@ -9,7 +7,7 @@ const generateTableOfContents = require('./utils/generateMarkdown');
 const questions = [
   {
     type: 'input',
-    name: 'projectTitle',
+    name: 'title',
     message: 'Enter your project title:',
   },
   {
@@ -24,7 +22,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'usuage',
+    name: 'usage',
     message: 'What is the usage of the project:',
   },
   {
@@ -50,13 +48,13 @@ const questions = [
   {
     type: 'input',
     name: 'questions',
-    message: 'If you have questions, Please use the links in Readme'
+    message: 'Do you have questions?',
   },
-  
-  // Add more questions for other sections (installation, usage, etc.)
+
+
 ];
 
-// TODO: Create a function to write README file
+
 
 
 function writeREADME(content) {
@@ -68,7 +66,7 @@ function writeREADME(content) {
   
  
 
-// TODO: Create a function to initialize app
+
 function init() {
     inquirer.prompt(questions)
     .then(function(responses) {
