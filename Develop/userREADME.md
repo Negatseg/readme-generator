@@ -1,9 +1,9 @@
 
 ## Title
-whddjchdjkchjdhjkdh
+right
 
 ## Description
-asjgsgsuduhdsgcydsgiyd
+right
 
 ## Table of Contents
 - [Title](#title)
@@ -16,22 +16,22 @@ asjgsgsuduhdsgcydsgiyd
 - [Questions](#questions)
 
 ## Installation
-asgshghsdgyusgsgghsgud
+right
 
 ## Usage
-ssdghsgydgusssg
+right
 
 ## License
-sagsdghsdguwqdhuisgd
+right
 
 ## Contributing
-sdsghsgdshdgshd
+right
 
 ## Tests
-ssdhsgdsgsgsygyid
+right
 
 ## Author
-gsdfsgdsdgusdh
+right
 
 ## Questions
 If you questions, Please review https://github.com/Negatseg/readme-generator or reach out to email: negash@gmail.com
