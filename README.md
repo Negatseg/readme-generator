@@ -26,4 +26,11 @@ THEN I am taken to the corresponding section of the README
 
 Way forward: Anyone who want to  update and modify teh code can make enhancements and improve for better feasibiity.
 Below is the sample Readme file generated in teh commnad line
+screenshots about the website.
 ![Alt text](image.png)
+
+Screenshots how the readme is finanly generated!
+![Alt text](image-1.png)
+
+Here is my demo video abaout the code!
+https://drive.google.com/file/d/1IbJSVYloPBqH5g33upNgoCyre0Wb1X3f/view
