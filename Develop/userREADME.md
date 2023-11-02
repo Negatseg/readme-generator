@@ -6,15 +6,15 @@ undefined
 yes
 
 ## Table of Contents
-- [Title](#Title)
+- [Title](#title)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Author](#author)
-- [GithubUsername](#githubusername)
-- [Email](#emailid)
+- [Questions](#questions)
+- [Email](#email)
 
 ## Installation
 yes
@@ -22,6 +22,7 @@ yes
 ## Usage
 undefined
 
+## License
 yes
 
 ## Contributing
@@ -33,8 +34,8 @@ yes
 ## Author
 yes
 
-## GithubUsername
-undefined
+## Questions
+Please review https://github.com/Negatseg/readme-generator or email: negash@gmail.com
 
 ## Email
 undefined

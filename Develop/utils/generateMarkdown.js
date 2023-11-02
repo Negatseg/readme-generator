@@ -92,8 +92,8 @@ function generateMarkdown({
   contributing,
   tests,
   author,
-  githubusername,
-  emailid,
+  questions,
+  email,
 }) {
   return `
 ## Title
@@ -103,15 +103,15 @@ ${title}
 ${description}
 
 ## Table of Contents
-- [Title](#Title)
+- [Title](#title)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Author](#author)
-- [GithubUsername](#githubusername)
-- [Email](#emailid)
+- [Questions](#questions)
+- [Email](#email)
 
 ## Installation
 ${installation}
@@ -119,6 +119,7 @@ ${installation}
 ## Usage
 ${usage}
 
+## License
 ${license}
 
 ## Contributing
@@ -130,11 +131,11 @@ ${tests}
 ## Author
 ${author}
 
-## GithubUsername
-${githubusername}
+## Questions
+${questions, 'Please review https://github.com/Negatseg/readme-generator or email: negash@gmail.com'}
 
 ## Email
-${emailid}
+${email}
 `;
 }
 

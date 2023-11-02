@@ -49,14 +49,10 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'githubUsername',
-    message: 'what is your github username?'
+    name: 'questions',
+    message: 'If you have questions, Please use the links in Readme'
   },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'enater your emailId'
-  }
+  
   // Add more questions for other sections (installation, usage, etc.)
 ];
 
